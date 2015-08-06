@@ -1,0 +1,17 @@
+body {
+
+	background-image: url("background.jpg");
+    background-color: #cccccc;
+
+text-align: center;
+color:#5A2400;
+
+
+}
+.bold{font-weight: bold;}
+
+
+
+.punktlista{width: 200px;margin: 0 auto;text-align: left;}
+
+a{color:#5A2400; }
