@@ -10,7 +10,7 @@ def question(request):
 	return render(request, "quiz/question.html")
 
 def completed(request):
-	return render(request, "quiz/completed")
+	return render(request, "quiz/completed.html")
 
 
 # Create your views here.
