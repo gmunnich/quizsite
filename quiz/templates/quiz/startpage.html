@@ -20,15 +20,10 @@
 <h1>Välkommen till Gabrielas Quiz!</h1>
  
 
+{% for quiz_slug, quiz in quizzes.items %}
+	<p>{{ quiz.name }}</p>
+{% endfor %}
 
-<div class="punktlista">
-<ul>
-<li class="bold"><a href="file:///Users/gabrielamunnich/Documents/Projekt/MyQuiz/Quiz1start.html">Quiz 1</a></li>
-<li class="bold">Quiz 2</li>
-<li class="bold">Quiz 3</li>
-<li class="bold">Quiz 4</li>
-</ul>
-</div>
 
 
 </body>
