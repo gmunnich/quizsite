@@ -1,17 +1,25 @@
 body {
 
 	background-image: url("background.jpg");
-    background-color: #cccccc;
-
-text-align: center;
-color:#5A2400;
-
-
+    color:#0033CC;
+text-align: right;
+text-align: bottom;
 }
-.bold{font-weight: bold;}
+
+
+html { 
+  background: url(images/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.box { 
+	border-right: 0
+	color:#0033CC;
+}
+ 
 
 
 
-.punktlista{width: 200px;margin: 0 auto;text-align: left;}
-
-a{color:#5A2400; }

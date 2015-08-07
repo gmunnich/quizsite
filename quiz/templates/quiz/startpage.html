@@ -12,12 +12,18 @@
 </head>
 <body>
 
-<img src="static/banner.jpg">
-
 <br>
 <br>
+</body>
 
-<h1>Välkommen till Gabrielas Quiz!</h1>
+
+<div class="box">
+    
+    <h1>Välkommen till Gabrielas Quiz!</h1>
+
+    
+
+
  
 
 {% for quiz_slug, quiz in quizzes.items %}
@@ -25,8 +31,8 @@
 		{{ quiz.name }}
 	</a></p>
 {% endfor %}
+</div>
 
 
 
-</body>
 </html>
