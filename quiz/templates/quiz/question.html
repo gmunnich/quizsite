@@ -13,11 +13,16 @@
 <br>
 <Br>
 
+<div class="box">
+
 <h1>{{ question_number }}. {{ question }}</h1>
 	<p>{{ answer1 }}</p>
 	<p>{{ answer2 }}</p>
 	<p>{{ answer3 }}</p>
 
+<p><a href="{% url "question_page" quiz.slug question_number|add:1 %}">Nästa</a></p>
+
+</div>
 
 
 

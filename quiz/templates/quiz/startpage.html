@@ -21,16 +21,13 @@
     
     <h1>Välkommen till Gabrielas Quiz!</h1>
 
-    
+{% for quiz in quizzes %}   
 
-
- 
-
-{% for quiz_slug, quiz in quizzes.items %}
-   	 <p><a href="{% url "quiz_page" quiz_slug %}">
+   	 <p><a href="{% url "quiz_page" quiz.slug%}">
 		{{ quiz.name }}
 	</a></p>
 {% endfor %}
+
 </div>
 
 

@@ -1,25 +1,26 @@
 body {
-
-	background-image: url("background.jpg");
-    color:#0033CC;
-text-align: right;
-text-align: bottom;
-}
-
-
-html { 
-  background: url(images/bg.jpg) no-repeat center center fixed; 
+ background: url(/static/background.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+	
+text-align: right;
+color: #0033CC
+
 }
 
-.box { 
-	border-right: 0
-	color:#0033CC;
+
+html { 
+ 
+}
+
+.box { position: fixed;
+  bottom: 0;
+  right: 10px;
+
 }
  
 
-
+a {color: #0033CC}
 

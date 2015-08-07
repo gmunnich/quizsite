@@ -12,12 +12,16 @@
 <body>
 <br>
 <Br>
-<h1>{{ quiz.name }}</h1>
-	<p>{{ quiz.description }}</p>
 
-<p><a href="{% url "question_page" quiz_slug 1 %}">Starta</a></p>
+<div class="box">
 
+	<h1>{{ quiz.name }}</h1>
 
+<p>{{ quiz.description }}</p>
+
+<p><a href="{% url "question_page" quiz.slug 1 %}">Starta</a></p>
+
+</div>
 
 
 
