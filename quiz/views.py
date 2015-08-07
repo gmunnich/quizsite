@@ -11,7 +11,7 @@ from django.shortcuts import redirect
 
 def startpage(request):
 	context = {
-			"quizzes": Quiz.objects.all(),
+			"quizzes": [],
 	}
 	return render(request, "quiz/startpage.html", context)
 
